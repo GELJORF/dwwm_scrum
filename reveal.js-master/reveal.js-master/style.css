@@ -1,0 +1,37 @@
+.titre {
+    color: rgb(20, 65, 149);
+    background-color: beige;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 100px;
+}
+
+.resume {
+    color: beige;
+    background-color: rgb(61, 6, 112);
+    font-style: italic;
+}
+
+.explication {
+    justify-content: center;
+    background-color: rgb(5, 9, 55);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: block;
+}
+
+.valeur {
+    color: rgb(244, 155, 11);
+    background-color: navy;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-weight: bolder;
+    display: block;
+}
+
+.list {
+    color: red;
+    background-color: peachpuff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    font-weight: bold;
+    display: block;
+}
