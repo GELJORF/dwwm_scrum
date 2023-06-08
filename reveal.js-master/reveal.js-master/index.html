@@ -9,7 +9,7 @@
 
 	<link rel="stylesheet" href="dist/reset.css">
 	<link rel="stylesheet" href="dist/reveal.css">
-	<link rel="stylesheet" href="dist/theme/black.css">
+	<link rel="stylesheet" href="dist/theme/dracula.css">
 	<!-- Theme used for syntax highlighted code -->
 	<link rel="stylesheet" href="plugin/highlight/monokai.css">
 </head>
@@ -17,15 +17,42 @@
 <body>
 	<div class="reveal">
 		<div class="slides">
-			<section data-transition="zoom">Page de garde</section>
-			<section data-transition-speed="fast">Introduction</section>
-			<section data-transition="slide-in fade-out">Sommaire</section>
+
+			<section data-transition="zoom" style="color:rgb(8, 64, 96); font-weight: bolder; background-color: coral;">
+				Human Booster - Projet SCRUM</section>
+
 			<section>
-				<section data-background-gradient="radial-gradient(#283b95, #17b2c3)">What is Scrum</section>
-				<section>
-					<h1 class="fragment fade-out">Résumé</h1>
+				<section data-transition-speed="fast" style="color:firebrick; background-color: cyan; font-weight:bold ;">Introduction
 				</section>
-				<section data-background-color="aquamarine">
+				<section style="color:darkred; background-color: darkgrey; font-weight: bolder; border: darkcyan;">
+					Alors,
+					pourquoi l'appelle-t-on Scrum ? Il s'agit d'un concept inspiré d'une mêlée dans le sport du rugby.
+					Au rugby, l'équipe se réunit dans ce qu'elle appelle une mêlée pour travailler ensemble et faire
+					avancer le ballon. Dans ce contexte, la mêlée est l'endroit où l'équipe se réunit pour faire avancer
+					le produit.</section>
+			</section>
+
+			<section>
+				<section data-transition="slide-in fade-out"
+					style="color:purple; background-color: linen; font-style: oblique; font-weight: bolder;">Sommaire
+				</section>
+				<section>
+					<ul>
+						<li class="fragment" style="color: rgb(255, 255, 5);">Qu'est-ce que le Scrum</li>
+						<li class="fragment" style="color: rgb(255, 255, 5);">L'équipe du Scrum</li>
+						<li class="fragment" style="color: rgb(255, 255, 5);">Les événements du scrum</li>
+						<li class="fragment" style="color: rgb(255, 255, 5);">Les artifacts du Scrum</li>
+					</ul>
+				</section>
+			</section>
+
+			<section>
+				<section style="color:red; font-size: larger; background-color: papayawhip;">What is Scrum</section>
+				<section data-background-iframe="fade-in-then-semi-out"
+					style="color: rgb(133, 219, 208); font-weight: bold;">
+					Résumé
+				</section>
+				<section style="color: azure; background-color: chocolate;">
 					<p data-background-iframe="https://slides.com" data-background-interactive>un moyen de faire du
 						travail en équipe par petits morceaux à la fois, avec
 						une expérimentation
@@ -33,22 +60,23 @@
 						au
 						fur et à mesure.</p>
 				</section>
-				<section>
+				<section style="color: azure; background-color: chocolate;">
 					<p>Scrum aide les personnes et les équipes à produire de la valeur de manière
 						incrémentale et collaborative.</p>
 				</section>
-				<section>
-					<p class="fragment highlight-red">
-						Les valeurs de SCRUM : <br />
-						<li class="fragment fade-in-then-out">Courage</li>
-						<li class="fragment fade-up">Concentration</li>
-						<li class="fragment fade-out">Engagement</li>
-						<li class="fragment fade-in-then-semi-out">Respect</li>
-						<li class="fragment highlight-current-blue">Ouverture</li>
-					</p>
+				<section class="fragment highlight-red">
+					<h3 style="color:darkorange">Les valeurs :</h3>
+					<ul>
+						<li>Courage</li>
+						<li>Concentration</li>
+						<li>Engagement</li>
+						<li>Respect</li>
+						<li>Ouverture</li>
+					</ul>
 				</section>
 				<section data-transition="zoom">
-					<section>
+					<section
+						style="color : rgb(170, 13, 23); background-color: darkgrey; font-weight: bold; justify-content: center;">
 						Pour être efficace avec Scrum, il ne suffit pas de suivre les mécanismes et
 						les principes
 						fondamentaux du cadre. Parfois, les équipes Scrum prennent l'habitude de se contenter de
@@ -57,82 +85,18 @@
 						de
 						travailler et de penser, et un environnement qui le soutient, y compris la confiance.
 					</section>
-					
 				</section>
 				<section>
-						<img src="_img/debat-quel-avenir-pour-la-melee-dans-le-rugby-moderne-16-03-18-7563.jpg">
-					</section>
+					<img src="_img/debat-quel-avenir-pour-la-melee-dans-le-rugby-moderne-16-03-18-7563.jpg">
+				</section>
 			</section>
 			</section>
 			<section>The Scrum Team</section>
-			<section data-transition="zoom">
-				<section data-background-gradient="radial-gradient(#283b95, #17b2c3)">The Scrum Events</section>
-				<section data-background-color="aquamarine">
-					<p>Il y a plusieurs "Événements" dans Scrum. Chaque événement dans Scrum est une occasion formelle pour inspecter et adapter les artefacts Scrum.</p>
-				</section>
-				<section>
-					<p style="color: aquamarine;">Les principes :
-						<li class="fragment fade-in">Transparence</li>
-						<li class="fragment fade-in">Régularité</li>
-						<li class="fragment fade-in">Même heure, même lieu</li>
-					</p>
-				</section>
-				<section>
-					<h1>Sprint</h1>
-				</section>
-				<section data-background-color="aquamarine">
-					<p>Les sprints sont des idées transformées en valeur. <br />
-						Ce sont des événements d'une durée fixe, d'un mois ou moins, pour créer une cohérence.</p>
-				</section>
-				<section>
-					<p style="color: aquamarine;">Durant le Sprint</p>
-						<ul>
-							<li class="fragment" style="color: rgb(196, 255, 235);">Aucun changements</li>
-							<li class="fragment" style="color: rgb(196, 255, 235);">Objectifs jamais à la baisse</li>
-							<li class="fragment" style="color: rgb(196, 255, 235);">Product Backlog pouvant être affiné</li>
-							<li class="fragment" style="color: rgb(196, 255, 235);">Le périmètre peut être clarifié et renégocié</li>
-						</ul>
-				</section>
-				<section>
-					<p>Un Sprint peut être annulé si l'Objectif de Sprint devient obsolète.
-						Seul le Product Owner a le pouvoir d'annuler le Sprint.</p>
-				</section>
-				<section>
-					<h1>Sprint Planning</h1>
-				</section>
-				<section>
-					<p style="color: aquamarine;">Les thèmes</p>
-						<ul>
-							<li class="fragment" style="color: rgb(196, 255, 235);">Pourquoi ce Sprint est‐il important ?</li>
-							<li class="fragment" style="color: rgb(196, 255, 235);">Que peut‐on faire durant ce Sprint ?</li>
-							<li class="fragment" style="color: rgb(196, 255, 235);">Comment le travail choisi sera‐t‐il réalisé ?</li>
-						</ul>
-				</section>
-				<section>
-					<h1>Daily Scrum</h1>
-				</section>
-				<section>
-					<p style="color: aquamarine;">L'objectif du Daily Scrum est d'inspecter la progression vers l'Objectif de Sprint et d'adapter le Sprint
-						Backlog si nécessaire, en ajustant les futurs travaux planifiés. Durant 15 minutes avec les Developers de la Srum Team</p>
-				</section>
-				<section>
-					<h1>Sprint Review</h1>
-				</section>
-				<section>
-					<p style="color: aquamarine;">L'objectif de la Sprint Review est d'inspecter le résultat du Sprint et de déterminer les adaptations futures.
-						La Scrum Team présente les résultats de son travail aux principales parties prenantes et les progressions
-						vers l'Objectif de Produit sont discutées.</p>
-				</section>
-				<section>
-					<h1>Sprint Retrospective</h1>
-				</section>
-				<section>
-					<p style="color: aquamarine;">L'objectif de la Sprint Retrospective consiste à réfléchir à des pistes pour améliorer la qualité et l'efficacité.</p>
-				</section>
-			</section>
+
 			<section>The Scrum Artifacts</section>
 			<section>Conclusion</section>
 			<section>Ressources</section>
+
 		</div>
 	</div>
 
