@@ -8,4 +8,3 @@ log/*.log
 tmp/**
 node_modules/
 .sass-cache
-.DS_Store
